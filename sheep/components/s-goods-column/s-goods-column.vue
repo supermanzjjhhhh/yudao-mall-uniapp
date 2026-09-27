@@ -501,7 +501,7 @@
     formatStock,
     getRewardActivityRuleItemDescriptions,
   } from '@/sheep/hooks/useGoods';
-  import { isArray } from 'lodash-es';
+  import { isArray } from '@/sheep/helper/lodash';
   import { PromotionActivityTypeEnum } from '@/sheep/helper/const';
 
   // 数据

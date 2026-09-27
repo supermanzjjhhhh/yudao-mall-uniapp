@@ -148,7 +148,7 @@
   import sheep from '@/sheep';
   import { onLoad, onReachBottom } from '@dcloudio/uni-app';
   import { reactive } from 'vue';
-  import { concat } from 'lodash-es';
+  import { concat } from '@/sheep/helper/lodash';
   import CouponApi from '@/sheep/api/promotion/coupon';
   import { fen2yuan } from '@/sheep/hooks/useGoods';
   import SpuApi from '@/sheep/api/product/spu';

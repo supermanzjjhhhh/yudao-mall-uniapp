@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import $share from '@/sheep/platform/share';
-import { clone, cloneDeep } from 'lodash-es';
+import { clone, cloneDeep } from '@/sheep/helper/lodash';
 import cart from './cart';
 import app from './app';
 import { showAuthModal } from '@/sheep/hooks/useModal';

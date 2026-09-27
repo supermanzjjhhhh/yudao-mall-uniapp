@@ -62,7 +62,7 @@
   import SpuApi from '@/sheep/api/product/spu';
   import { onLoad, onShow } from '@dcloudio/uni-app';
   import { computed, reactive } from 'vue';
-  import { concat } from 'lodash-es';
+  import { concat } from '@/sheep/helper/lodash';
   import { handleTree } from '@/sheep/helper/utils';
 
   const state = reactive({

@@ -121,7 +121,7 @@
   import { reactive, ref } from 'vue';
   import { onLoad, onReachBottom } from '@dcloudio/uni-app';
   import sheep from '@/sheep';
-  import { concat } from 'lodash-es';
+  import { concat } from '@/sheep/helper/lodash';
   import { resetPagination } from '@/sheep/helper/utils';
   import SpuApi from '@/sheep/api/product/spu';
   import OrderApi from '@/sheep/api/trade/order';
